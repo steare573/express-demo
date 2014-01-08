@@ -1,0 +1,36 @@
+{
+  "name": "express-demo",
+  "version": "0.1.0",
+  "description": "test proj express",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steare573/express-demo.git"
+  },
+  "author": "steare",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/steare573/express-demo/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.7",
+    "socket.io": "latest",
+    "ws": "~0.4.31",
+    "engine.io": "~0.8.0",
+    "engine.io-client": "~0.8.0"
+  },
+  "devDependencies": {
+    "should": "~2.1.1",
+    "mocha": "~1.16.2",
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.4",
+    "grunt-simple-mocha": "~0.4.0",
+    "grunt-mocha-test": "~0.5.0",
+    "grunt-notify": "~0.2.4",
+    "grunt-env": "~0.4.0",
+    "grunt-contrib-jshint": "~0.6.0"
+  }
+}
